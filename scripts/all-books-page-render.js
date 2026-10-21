@@ -3,6 +3,15 @@ import {books} from "./data.js";
 const checkboxes = document.querySelectorAll(".category-options input");
 const bookGrid = document.querySelector(".book-grid");
 
+const filterToggle = document.querySelector(".filter-toggle");
+const sidebar = document.querySelector("#filters");
+
+filterToggle.addEventListener("click", () => {
+    const isOpen = sidebar.classList.toggle("open");
+    filterToggle.setAttribute("aria-expanded", isOpen);
+    filterToggle.textContent = isOpen ? "Hide filters" : "Filters";
+});
+
 function renderBooks(bookList) {
     let html = "";
     bookList.forEach(book => {
