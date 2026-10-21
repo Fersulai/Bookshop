@@ -1,0 +1,96 @@
+.header-bottom-logo{
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    color: #292524;
+    font-weight: 700;
+}
+
+.header-bottom-logo span{
+    color: #B7791F;
+}
+.book-image{
+    width: 270px;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin: 40px 0;
+}
+
+.book-details{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+.book-title{
+    margin: 0;
+    font-size: 38px;
+}
+
+.book-actions {
+    display: flex;
+    gap: 12px;
+}
+
+.buy-button,
+.wishlist-button {
+    padding: 15px 30px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid var(--color-primary);
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.buy-button {
+    background-color: var(--color-primary);
+    color: white;
+}
+
+.buy-button:hover {
+    background-color: var(--color-primary-dark);
+    border-color: var(--color-primary-dark);
+}
+
+.wishlist-button {
+    background-color: transparent;
+    color: var(--color-primary);
+}
+
+.wishlist-button:hover {
+    background-color: var(--color-primary);
+    color: white;
+}
+
+.book-genres{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 6px 0 20px 0;
+}
+
+.genre-tag{
+    border-radius: 20px;
+    font-size: 14px;
+    color: var(--color-primary);
+    background-color: #f3e8d8;
+    padding: 6px 14px;
+}
+
+.book-synopsis{
+    max-width: 500px;
+}
+
+.book-author{
+    font-size: 18px;
+}
+
+.checkout-info-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

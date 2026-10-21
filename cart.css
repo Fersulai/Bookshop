@@ -1,0 +1,32 @@
+.header-bottom-logo{
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    color: #292524;
+    font-weight: 700;
+}
+
+.header-bottom-logo span{
+    color: #B7791F;
+}
+
+.book-image{
+    width: 150px;
+}
+
+.cart-item{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.book-info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.quantity{
+    width: 70px;
+    padding: 10px;
+}

@@ -1,0 +1,328 @@
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+            <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+            <title>BookStore</title>
+            <link rel="stylesheet" href="books.css">
+            <link rel="stylesheet" href="index.css">
+        </head>
+
+        <body>
+            <div class="main-container">
+                <header class="header">
+                    <div class="header-top">
+                        <div class="header-top-left">
+                            <p class="header-top-text">
+                                Free Shipping on orders over $50
+                            </p>
+                        </div>
+
+                        <div class="header-top-right">
+                            <a href="#" class="header-top-link">
+                                Help
+                            </a>
+
+                            <a href="#" class="header-top-link">
+                                Track Order
+                            </a>
+
+                            <a href="#" class="header-top-link">
+                                Contact
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="header-bottom">
+                            <a href="index.html" class="header-bottom-logo">Book<span>Store</span></a>
+
+
+                            <div class="header-bottom-middle">
+                                <input type="search" class="header-search" placeholder="Search for books...">
+
+                                <button class="search-button">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="search-icon lucide lucide-search"><path d="m21 21-4.34-4.34"/><circle cx="11" cy="11" r="8"/>
+                                    </svg>
+                                </button>
+                                
+                            </div>
+
+                            <div class="header-bottom-right">
+
+                                <a href="#" aria-label="account">
+                                    <svg class="account-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><path d="M320 312C386.3 312 440 258.3 440 192C440 125.7 386.3 72 320 72C253.7 72 200 125.7 200 192C200 258.3 253.7 312 320 312zM290.3 368C191.8 368 112 447.8 112 546.3C112 562.7 125.3 576 141.7 576L498.3 576C514.7 576 528 562.7 528 546.3C528 447.8 448.2 368 349.7 368L290.3 368z"/></svg>
+                                    <span class="icon-label"> Account</span>
+                                </a>
+
+                                
+                                <a href="cart.html" aria-label="cart">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class=" cart-icon lucide lucide-shopping-cart"><path d="m2.05 2.05 1.099-.028a1 1 0 0 1 1.008.815l2.69 14.347A1 1 0 0 0 7.83 18H18"/><path d="M4.563 5h16.435a1 1 0 0 1 .981 1.204l-1.026 6.226A2 2 0 0 1 18.962 14H6.25"/><circle cx="18" cy="20" r="2"/><circle cx="8" cy="20" r="2"/></svg>
+                                    <span class="icon-label">Cart</span>
+                                    <span class="cart-count">0</span>
+                                </a>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+
+                    <nav class="nav-menu">
+                        <a class="nav-link" href="books.html">
+                            Books
+                        </a>
+
+                        <a class="nav-link" href="books.html">
+                            Categories
+                        </a>
+                        
+                        <a class="nav-link" href="#">
+                            Bestsellers
+                        </a>
+
+                        <a class="nav-link" href="#">
+                            New Arrivals
+                        </a>
+
+                        <a class="nav-link" href="#">
+                            About
+                        </a>
+                    </nav>
+                </header>
+
+                <section class="hero-section">
+                    <div class="hero-content">
+                        <h2>
+                            All books
+                        </h2>
+
+                        <p>
+                            Discover your next favorite book from our complete collection.
+                        </p>
+                    </div>
+                </section>
+
+                <div class="container">
+                    <div class="content-wrapper">
+                        <button class="filter-toggle" aria-expanded="false" aria-controls="filters">
+                            Filters
+                        </button>
+                        <aside class="sidebar" id="filters">
+                            <div class="sidebar-header">
+                                <h3 class="sidebar-title">
+                                    Filters
+                                </h3>
+
+                                <p>
+                                    Clear All
+                                </p>
+                            </div>
+
+                            <div class="category-filter">
+                                <h3>
+                                    Categories
+                                </h3>
+                                
+                                <div class="category-options">
+                                    <input type="checkbox" id="fiction" value="fiction">
+                                    <label for="fiction">
+                                        Fiction
+                                    </label>
+                                </div>
+
+                                <div class="category-options">
+                                    <input type="checkbox" id="mystery" value="mystery">
+                                    <label for="mystery">
+                                        Mystery
+                                    </label>
+                                </div>
+
+                                <div class="category-options">
+                                    <input type="checkbox" id="romance" value="romance">
+                                    <label for="romance">
+                                        Romance
+                                    </label>
+                                </div>
+
+                                <div class="category-options">
+                                    <input type="checkbox" id="fantasy" value="fantasy">
+                                    <label for="fantasy">
+                                        Fantasy
+                                    </label>
+                                </div>
+
+                                <div class="category-options">
+                                    <input type="checkbox" id="adventure" value="adventure">
+                                    <label for="adventure">
+                                        Adventure
+                                    </label>
+                                </div>
+
+                                <div class="category-options">
+                                    <input type="checkbox" id="science-fiction" value="science fiction">
+                                    <label for="science-fiction">
+                                        Science Fiction
+                                    </label>
+                                </div>
+
+                                <div class="category-options">
+                                    <input type="checkbox" id="horror" value="horror">
+                                    <label for="horror">
+                                        Horror
+                                    </label>
+                                </div>
+
+                                <div class="category-options">
+                                    <input type="checkbox" id="historical" value="historical">
+                                    <label for="historical">
+                                        Historical
+                                    </label>
+                                </div>
+
+                                <div class="category-options">
+                                    <input type="checkbox" id="biography" value="biography">
+                                    <label for="biography">
+                                        Biography
+                                    </label>
+                                </div>
+
+                                <div class="category-options">
+                                    <input type="checkbox" id="non-fiction" value="non fiction">
+                                    <label for="non-fiction">
+                                        Non-Fiction
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="price-range-filter">
+                                
+                            </div>
+
+                            <div class="rating-filter">
+
+                            </div>
+
+                            <div class="format-filter">
+
+                            </div>
+
+                        </aside>
+
+                        <div class="book-grid">
+                        </div>
+                    </div>
+
+                </div>
+
+                <footer class="footer">
+                    <div class="top-footer">
+                        <div class="footer-brand">
+                            <h3 class="footer-title">
+                                Book<span>Store</span>
+                            </h3>
+
+                            <div class="footer-socials">
+
+                            </div>
+                        </div>
+                        <div class="footer-shop">
+                            <a href="#">
+                                Shop
+                            </a>
+
+                            <a href="#">
+                                Books
+                            </a>
+
+                            <a href="#">
+                                Categories
+                            </a>
+
+                            <a href="#">
+                                Bestsellers
+                            </a>
+
+                            <a href="#">
+                                New arrivals
+                            </a>
+                        </div>
+
+                        <div class="footer-support">
+                            <a href="#">
+                                Support
+                            </a>
+
+                            <a href="#">
+                                Help
+                            </a>
+
+                            <a href="#">
+                                Track order
+                            </a>
+
+                            <a href="#">
+                                Contact
+                            </a>
+
+                            <a href="#">
+                                Returns
+                            </a>
+                        </div>
+
+                        <div class="footer-about">
+                            <a href="#">
+                                About
+                            </a>
+
+                            <a href="#">
+                                Our Story
+                            </a>
+
+                            <a href="#">
+                                Blog
+                            </a>
+
+                            <a href="#">
+                                Careers
+                            </a>
+                        </div>
+
+                        <div class="footer-newsletter">
+                            <p>Subscribe to our newsletter</p>
+                            <input type="email" class="newsletter-input" placeholder="Your email address">
+                            <button class="newsletter-button">
+                                Subscribe
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="bottom-footer">
+                        <p>
+                            © 2026 Bookstore. All rights reserved.
+                        </p>
+
+                        <div class="bottom-footer-right">
+                            <p>
+                                Privacy Policy
+                            </p>
+
+                            <p>
+                                Terms of service
+                            </p>
+                        </div>
+                    </div>
+                </footer>
+
+
+            </div>
+            <script src="scripts/all-books-page-render.js" type="module"></script>
+            <script src="scripts/cart.js" type="module"></script>
+        </body>
+    </html>
