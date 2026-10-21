@@ -2,7 +2,7 @@ export const books =[
     {
     title: "The Hobbit or there and back again",
     genres: ["Fantasy", "Fiction", "Adventure"],
-    image: "../images/the-hobbit.jpg",
+    image: "./images/the-hobbit.jpg",
     author: "J.R.R. Tolkien",
     rating: 4.3,
     priceCents: 1299,
@@ -13,7 +13,7 @@ export const books =[
     {
     title: "The Blade Itself",
     genres: ["Fantasy", "Fiction", "Adventure"],
-    image: "../images/the-blade-itself.jpg",
+    image: "./images/the-blade-itself.jpg",
     author: "Joe Abercrombie",
     rating: 4.2,
     priceCents: 1399,
@@ -24,7 +24,7 @@ export const books =[
     {
     title: "A Game of Thrones",
     genres: ["Fantasy", "Fiction", "Adventure"],
-    image: "../images/a-game-of-thrones.jpg",
+    image: "./images/a-game-of-thrones.jpg",
     author: "George R.R. Martin",
     rating: 4.45,
     priceCents: 1299,
@@ -36,7 +36,7 @@ export const books =[
     {
     title: "The Way of Kings",
     genres: ["Fantasy", "Fiction", "Adventure"],
-    image: "../images/the-way-of-kings.jpg",
+    image: "./images/the-way-of-kings.jpg",
     author: "Brandon Sanderson",
     rating: 4.8,
     priceCents: 1299,
@@ -47,7 +47,7 @@ export const books =[
     {
     title: "The Name of the Wind",
     genres: ["Fantasy", "Fiction", "Adventure"],
-    image: "../images/the-name-of-the-wind.jpg",
+    image: "./images/the-name-of-the-wind.jpg",
     author: "Patrick Rothfuss",
     rating: 4.8,
     priceCents: 1399,
@@ -58,7 +58,7 @@ export const books =[
     {
     title: "A Wizard of Earthsea",
     genres: ["Fantasy", "Fiction", "Adventure"],
-    image: "../images/a-wizard-of-earthsea.jpg",
+    image: "./images/a-wizard-of-earthsea.jpg",
     author: "Ursula K. Le Guin",
     rating: 4.8,
     priceCents: 1299,
@@ -69,7 +69,7 @@ export const books =[
     {
     title: "Assassin's Apprentice",
     genres: ["Fantasy", "Fiction", "Adventure"],
-    image: "../images/assassin's-apprentice.jpg",
+    image: "./images/assassin's-apprentice.jpg",
     author: "Robin Hobb",
     rating: 4.2,
     priceCents: 1299,
@@ -80,7 +80,7 @@ export const books =[
     {
     title: "Gardens of the Moon",
     genres: ["Fantasy", "Fiction", "Adventure"],
-    image: "../images/gardens-of-the-moon.jpg",
+    image: "./images/gardens-of-the-moon.jpg",
     author: "Steven Erikson",
     rating: 4.8,
     priceCents: 1399,
@@ -91,7 +91,7 @@ export const books =[
     {
     title: "The Eye of the World",
     genres: ["Fantasy", "Fiction", "Adventure"],
-    image: "../images/the-eye-of-the-world.jpg",
+    image: "./images/the-eye-of-the-world.jpg",
     author: "Robert Jordan",
     rating: 4.4,
     priceCents: 1299,
@@ -102,7 +102,7 @@ export const books =[
     {
     title: "Mistborn: The Final Empire",
     genres: ["Fantasy", "Fiction","Adventure"],
-    image: "../images/mistborn-the-final-empire.jpg",
+    image: "./images/mistborn-the-final-empire.jpg",
     author: "Brandon Sanderson",
     rating: 4.8,
     priceCents: 1299,
@@ -113,7 +113,7 @@ export const books =[
     {
     title: "Gaudy Night",
     genres: ["Mystery", "Fiction", "Romance"],
-    image: "../images/gaudy-night.jpg",
+    image: "./images/gaudy-night.jpg",
     author: "Dorothy Sayers",
     rating: 4.2,
     priceCents: 1299,
@@ -124,7 +124,7 @@ export const books =[
     {
     title: "Flowers from the Storm",
     genres: ["Romance", "Historical", "Fiction"],
-    image: "../images/flowers-from-the-storm.jpg",
+    image: "./images/flowers-from-the-storm.jpg",
     author: "Laura Kinsale",
     rating: 4.3,
     priceCents: 1299,
@@ -135,7 +135,7 @@ export const books =[
     {
     title: "Mine Till Midnight",
     genres: ["Romance", "Historical", "Fiction"],
-    image: "../images/mine-till-midnight.jpg",
+    image: "./images/mine-till-midnight.jpg",
     author: "Lisa Kleypas",
     rating: 4.2,
     priceCents: 1299,
@@ -146,7 +146,7 @@ export const books =[
     {
     title: "Suddenly You",
     genres: ["Romance", "Historical", "Fiction"],
-    image: "../images/suddenly-you.jpg",
+    image: "./images/suddenly-you.jpg",
     author: "Lisa Kleypas",
     rating: 4.2,
     priceCents: 1299,
@@ -157,7 +157,7 @@ export const books =[
     {
     title: "Again the Magic",
     genres: ["Romance", "Historical", "Fiction"],
-    image: "../images/again-the-magic.jpg",
+    image: "./images/again-the-magic.jpg",
     author: "Lisa Kleypas",
     rating: 4.2,
     priceCents: 1299,
@@ -168,7 +168,7 @@ export const books =[
     {
     title: "As You Desire",
     genres: ["Romance", "Historical", "Adventure", "Fiction"],
-    image: "../images/as-you-desire.jpg",
+    image: "./images/as-you-desire.jpg",
     author: "Connie Brockway",
     rating: 4.2,
     priceCents: 1299,
@@ -179,7 +179,7 @@ export const books =[
     {
     title: "The Bronze Horseman",
     genres: ["Romance", "Historical", "Fiction"],
-    image: "../images/the-bronze-horseman.jpg",
+    image: "./images/the-bronze-horseman.jpg",
     author: "Paullina Simons",
     rating: 4.2,
     priceCents: 1299,
@@ -190,7 +190,7 @@ export const books =[
     {
     title: "Match Me if You can",
     genres: ["Romance", "Fiction"],
-    image: "../images/match-me-if-you-can.jpg",
+    image: "./images/match-me-if-you-can.jpg",
     author: "Susan Elizabeth Phillips",
     rating: 4.2,
     priceCents: 1299,
@@ -201,7 +201,7 @@ export const books =[
     {
     title: "The Hating Game",
     genres: ["Romance", "Fiction"],
-    image: "../images/the-hating-game.jpg",
+    image: "./images/the-hating-game.jpg",
     author: "Sally Thorne",
     rating: 4.2,
     priceCents: 1299,
@@ -212,7 +212,7 @@ export const books =[
     {
     title: "A Hunger Like no Other",
     genres: ["Romance", "Fantasy", "Fiction"],
-    image: "../images/a-hunger-like-no-other.jpg",
+    image: "./images/a-hunger-like-no-other.jpg",
     author: "Kresley Cole",
     rating: 4.2,
     priceCents: 1299,
@@ -223,7 +223,7 @@ export const books =[
     {
     title: "Playing for Keeps",
     genres: ["Romance", "Fiction"],
-    image: "../images/playing-for-keeps.jpg",
+    image: "./images/playing-for-keeps.jpg",
     author: "R.L. Mathewson",
     rating: 4.2,
     priceCents: 1299,
@@ -234,7 +234,7 @@ export const books =[
     {
     title: "The Hound of the Baskervilles",
     genres: ["Mystery", "Fiction"],
-    image: "../images/the-hound-of-the-baskervilles.jpg",
+    image: "./images/the-hound-of-the-baskervilles.jpg",
     author: "Arthur Conan Doyle",
     rating: 4.2,
     priceCents: 1299,
@@ -245,7 +245,7 @@ export const books =[
     {
     title: "Recursion",
     genres: ["Science Fiction", "Mystery", "Fiction"],
-    image: "../images/recursion.jpg",
+    image: "./images/recursion.jpg",
     author: "Blake Crouch",
     rating: 4.16,
     priceCents: 1299,
@@ -267,7 +267,7 @@ export const books =[
     {
     title: "The 7 1/2 Deaths of Evelyn Hardcastle",
     genres: ["Mystery", "Fiction", "Fantasy"],
-    image: "/images/the-7-12-deaths-of-evelyn-hardcastle.jpg",
+    image: "./images/the-7-12-deaths-of-evelyn-hardcastle.jpg",
     author: "Stuart Turton",
     rating: 3.77,
     priceCents: 1299,
@@ -278,7 +278,7 @@ export const books =[
     {
     title: "Dark Matter",
     genres: ["Science Fiction", "Mystery", "Fiction"],
-    image: "../images/dark-matter.jpg",
+    image: "./images/dark-matter.jpg",
     author: "Blake Crouch",
     rating: 4.13,
     priceCents: 1299,
@@ -289,7 +289,7 @@ export const books =[
     {
     title: "The First Fifteen Lives of Harry August",
     genres: ["Science Fiction", "Fiction", "Mystery"],
-    image: "../images/the-first-fifteen-lives-of-harry-august.jpg",
+    image: "./images/the-first-fifteen-lives-of-harry-august.jpg",
     author: "Claire North",
     rating: 4.03,
     priceCents: 1299,
@@ -300,7 +300,7 @@ export const books =[
     {
     title: "The Three Body Problem",
     genres: ["Science Fiction", "Fiction", "Mystery"],
-    image: "../images/the-three-body-problem.jpg",
+    image: "./images/the-three-body-problem.jpg",
     author: "Liu Cixin",
     rating: 4.08,
     priceCents: 1299,
@@ -311,7 +311,7 @@ export const books =[
     {
     title: "Ubik",
     genres: ["Science Fiction", "Fiction", "Mystery"],
-    image: "../images/ubik.jpg",
+    image: "./images/ubik.jpg",
     author: "Philip K. Dick",
     rating: 4.08,
     priceCents: 1299,
@@ -322,7 +322,7 @@ export const books =[
     {
     title: "Annihilation",
     genres: ["Science Fiction", "Horror", "Fiction", "Mystery"],
-    image: "../images/annihilation.jpg",
+    image: "./images/annihilation.jpg",
     author: "Jeff Vandermeer",
     rating: 3.8,
     priceCents: 1299,
@@ -333,7 +333,7 @@ export const books =[
     {
     title: "The Devotion of Suspect X",
     genres: ["Mystery", "Fiction"],
-    image: "../images/the-devotion-of-suspect-x.jpg",
+    image: "./images/the-devotion-of-suspect-x.jpg",
     author: "Keigo Higashino",
     rating: 4.16,
     priceCents: 1299,
@@ -344,7 +344,7 @@ export const books =[
     {
     title: "House of Leaves",
     genres: ["Horror", "Mystery", "Fiction"],
-    image: "../images/house-of-leaves.jpg",
+    image: "./images/house-of-leaves.jpg",
     author: "Mark Z. Danielewski",
     rating: 4.16,
     priceCents: 1299,
@@ -355,7 +355,7 @@ export const books =[
     {
     title: "The Martian",
     genres: ["Science Fiction", "Adventure", "Fiction"],
-    image: "../images/the-martian.jpg",
+    image: "./images/the-martian.jpg",
     author: "Andy Weir",
     rating: 4.42,
     priceCents: 1299,
@@ -368,7 +368,7 @@ export const books =[
     {
     title: "The Time Traveler's Wife",
     genres: ["Fiction", "Romance", "Science Fiction"],
-    image: "../images/the-time-traveler-s-wife.jpg",
+    image: "./images/the-time-traveler-s-wife.jpg",
     author: "Audrey Niffenegger",
     rating: 4.42,
     priceCents: 1299,
@@ -379,7 +379,7 @@ export const books =[
     {
     title: "This is how You Lose the Time War",
     genres: ["Fiction", "Romance", "Science Fiction"],
-    image: "../images/this-is-how-you-lose-the-time-war.jpg",
+    image: "./images/this-is-how-you-lose-the-time-war.jpg",
     author: "Amal, El-Mohtar and Max Gladstone",
     rating: 3.82,
     priceCents: 1299,
@@ -390,7 +390,7 @@ export const books =[
     {
     title: "Shards of Honor",
     genres: ["Fiction", "Romance", "Science Fiction", "Adventure"],
-    image: "../images/shards-of-honor.jpg",
+    image: "./images/shards-of-honor.jpg",
     author: "Lois McMaster Bujold",
     rating: 3.82,
     priceCents: 1299,
@@ -401,7 +401,7 @@ export const books =[
     {
     title: "The Space Between Worlds",
     genres: ["Fiction", "Science Fiction"],
-    image: "../images/the-space-between-worlds.jpg",
+    image: "./images/the-space-between-worlds.jpg",
     author: "Micaiah Johnson",
     rating: 3.92,
     priceCents: 1299,
@@ -412,7 +412,7 @@ export const books =[
     {
     title: "The Host",
     genres: ["Fiction", "Romance", "Science Fiction"],
-    image: "../images/the-host.jpg",
+    image: "./images/the-host.jpg",
     author: "Stephenie Meyer",
     rating: 3.92,
     priceCents: 1299,
@@ -423,7 +423,7 @@ export const books =[
     {
     title: "The Tainted Cup",
     genres: ["Fiction", "Mystery", "Fantasy"],
-    image: "../images/the-tainted-cup.jpg",
+    image: "./images/the-tainted-cup.jpg",
     author: "Robert Jackson Bennet",
     rating: 4.3,
     priceCents: 1299,
@@ -434,7 +434,7 @@ export const books =[
     {
     title: "The Lies of Locke Lamora",
     genres: ["Fiction", "Adventure", "Fantasy"],
-    image: "../images/the-lies-of-locke-lamora.jpg",
+    image: "./images/the-lies-of-locke-lamora.jpg",
     author: "Scott Lynch",
     rating: 4.3,
     priceCents: 1299,
@@ -445,7 +445,7 @@ export const books =[
     {
     title: "Ninth House",
     genres: ["Fiction", "Mystery", "Fantasy", "Horror"],
-    image: "../images/ninth-house.jpg",
+    image: "./images/ninth-house.jpg",
     author: "Leigh Bardugo",
     rating: 4.0,
     priceCents: 1299,
@@ -456,7 +456,7 @@ export const books =[
     {
     title: "The Most Wonderful Crime of the Year",
     genres: ["Fiction", "Mystery", "Romance"],
-    image: "../images/the-most-wonderful-crime-of-the-year.jpg",
+    image: "./images/the-most-wonderful-crime-of-the-year.jpg",
     author: "Ally Carter",
     rating: 3.87,
     priceCents: 1299,
@@ -467,7 +467,7 @@ export const books =[
     {
     title: "The Witness",
     genres: ["Fiction", "Mystery", "Romance"],
-    image: "../images/the-witness.jpg",
+    image: "./images/the-witness.jpg",
     author: "Nora Roberts",
     rating: 4.25,
     priceCents: 1299,
@@ -478,7 +478,7 @@ export const books =[
     {
     title: "Naked in Death",
     genres: ["Fiction", "Mystery", "Romance", "Science Fiction"],
-    image: "../images/naked-in-death.jpg",
+    image: "./images/naked-in-death.jpg",
     author: "J.D. Robb",
     rating: 4.13,
     priceCents: 1299,
@@ -489,7 +489,7 @@ export const books =[
     {
     title: "The Da Vinci Code",
     genres: ["Fiction", "Mystery", "Adventure"],
-    image: "../images/the-da-vinci-code.jpg",
+    image: "./images/the-da-vinci-code.jpg",
     author: "Dan Brown",
     rating: 4.3,
     priceCents: 1299,
@@ -500,7 +500,7 @@ export const books =[
     {
     title: "Angels & Demons",
     genres: ["Fiction", "Mystery", "Adventure"],
-    image: "../images/angels-and-demons.jpg",
+    image: "./images/angels-and-demons.jpg",
     author: "Dan Brown",
     rating: 4.12,
     priceCents: 1299,
@@ -511,7 +511,7 @@ export const books =[
     {
     title: "The Maze of Bones",
     genres: ["Fiction", "Mystery", "Adventure"],
-    image: "../images/the-maze-of-bones.jpg",
+    image: "./images/the-maze-of-bones.jpg",
     author: "Rick Riordan",
     rating: 3.97,
     priceCents: 1299,
@@ -522,7 +522,7 @@ export const books =[
     {
     title: "The Name of the Rose",
     genres: ["Fiction", "Mystery", "Historical"],
-    image: "../images/the-name-of-the-rose.jpg",
+    image: "./images/the-name-of-the-rose.jpg",
     author: "Umberto Eco",
     rating: 3.97,
     priceCents: 1299,
@@ -533,7 +533,7 @@ export const books =[
     {
     title: "Dissolution",
     genres: ["Fiction", "Mystery", "Historical"],
-    image: "../images/dissolution.jpg",
+    image: "./images/dissolution.jpg",
     author: "C.J. Sansom",
     rating: 4.03,
     priceCents: 1299,
@@ -544,7 +544,7 @@ export const books =[
     {
     title: "The Diary of a Young girl",
     genres: ["Non Fiction", "Biography", "Historical"],
-    image: "../images/the-diary-of-a-young-girl.jpg",
+    image: "./images/the-diary-of-a-young-girl.jpg",
     author: "Anne Frank",
     rating: 4.20,
     priceCents: 1299,
@@ -555,7 +555,7 @@ export const books =[
     {
     title: "A Court of Thrones and Roses",
     genres: ["Fiction", "Romance", "Fantasy"],
-    image: "../images/a-court-of-thornes-and-roses.jpg",
+    image: "./images/a-court-of-thornes-and-roses.jpg",
     author: "Sarah J. Maas",
     rating: 4.14,
     priceCents: 1299,
@@ -566,7 +566,7 @@ export const books =[
     {
     title: "Fourth Wing",
     genres: ["Fiction", "Romance", "Fantasy"],
-    image: "../images/fourth-wing.jpg",
+    image: "./images/fourth-wing.jpg",
     author: "Rebecca Yarros",
     rating: 4.34    ,
     priceCents: 1299,
@@ -577,7 +577,7 @@ export const books =[
     {
     title: "The Serpent and the Wings of Night",
     genres: ["Fiction", "Romance", "Fantasy"],
-    image: "../images/the-serpent-and-the-wings-of-night.jpg",
+    image: "./images/the-serpent-and-the-wings-of-night.jpg",
     author: "Carissa Broadbent",
     rating: 4.25,
     priceCents: 1299,
@@ -588,7 +588,7 @@ export const books =[
     {
     title: "Radiance",
     genres: ["Fiction", "Romance", "Fantasy"],
-    image: "../images/radiance.jpg",
+    image: "./images/radiance.jpg",
     author: "Grace Draven",
     rating: 4.19,
     priceCents: 1299,
@@ -599,7 +599,7 @@ export const books =[
     {
     title: "Something Wilder",
     genres: ["Fiction", "Romance", "Adventure"],
-    image: "../images/something-wilder.jpg",
+    image: "./images/something-wilder.jpg",
     author: "Christina Lauren",
     rating: 3.85,
     priceCents: 1299,
@@ -610,7 +610,7 @@ export const books =[
     {
     title: "The Princess Bride",
     genres: ["Fiction", "Romance", "Adventure", "Fantasy"],
-    image: "../images/the-princess-bride.jpg",
+    image: "./images/the-princess-bride.jpg",
     author: "William Goldman",
     rating: 4.01,
     priceCents: 1299,
@@ -621,7 +621,7 @@ export const books =[
     {
     title: "Darkhouse",
     genres: ["Fiction", "Romance", "Horror"],
-    image: "../images/darkhouse.jpg",
+    image: "./images/darkhouse.jpg",
     author: "Karina Halle",
     rating: 3.71,
     priceCents: 1299,
@@ -632,7 +632,7 @@ export const books =[
     {
     title: "The Lightning Thief",
     genres: ["Fiction", "Fantasy", "Adventure"],
-    image: "../images/the-lightning-thief.jpg",
+    image: "./images/the-lightning-thief.jpg",
     author: "Rick Riordan",
     rating: 4.11,
     priceCents: 1299,
@@ -643,7 +643,7 @@ export const books =[
     {
     title: "Eragon",
     genres: ["Fiction", "Fantasy", "Adventure"],
-    image: "../images/eragon.jpg",
+    image: "./images/eragon.jpg",
     author: "Christopher Paolini",
     rating: 4.11,
     priceCents: 1299,
@@ -654,7 +654,7 @@ export const books =[
     {
     title: "Dune",
     genres: ["Fiction", "Science Fiction", "Adventure"],
-    image: "../images/dune.jpg",
+    image: "./images/dune.jpg",
     author: "Frank Herbert",
     rating: 4.11,
     priceCents: 1299,
@@ -665,7 +665,7 @@ export const books =[
     {
     title: "Shadow & Claw",
     genres: ["Fiction", "Fantasy", "Science Fiction"],
-    image: "../images/shadow-and-claw.jpg",
+    image: "./images/shadow-and-claw.jpg",
     author: "Gene Wolfe",
     rating: 4.01,
     priceCents: 1299,
@@ -676,7 +676,7 @@ export const books =[
     {
     title: "Between Two Fires",
     genres: ["Fiction", "Fantasy", "Horror", "Historical"],
-    image: "../images/between-two-fires.jpg",
+    image: "./images/between-two-fires.jpg",
     author: "Christopher Buehlman",
     rating: 4.17,
     priceCents: 1299,
@@ -687,7 +687,7 @@ export const books =[
     {
     title: "The Library at Mount Char",
     genres: ["Fiction", "Fantasy", "Horror"],
-    image: "../images/the-library-at-mount-char.jpg",
+    image: "./images/the-library-at-mount-char.jpg",
     author: "Scott Hawkins",
     rating: 3.87,
     priceCents: 1299,
@@ -698,7 +698,7 @@ export const books =[
     {
     title: "The Fisherman",
     genres: ["Fiction", "Fantasy", "Horror"],
-    image: "../images/the-fisherman.jpg",
+    image: "./images/the-fisherman.jpg",
     author: "John Langan",
     rating: 3.83,
     priceCents: 1299,
@@ -709,7 +709,7 @@ export const books =[
     {
     title: "His Majesty's Dragon",
     genres: ["Fiction", "Fantasy", "Historical", "Adventure"],
-    image: "../images/his-majesty-s-dragon.jpg",
+    image: "./images/his-majesty-s-dragon.jpg",
     author: "Naomi Novik",
     rating: 4.03,
     priceCents: 1299,
@@ -720,7 +720,7 @@ export const books =[
     {
     title: "Jonathan Strange & Mr Norrell",
     genres: ["Fiction", "Fantasy", "Historical"],
-    image: "../images/jonathan-strange-and-mr-norrell.jpg",
+    image: "./images/jonathan-strange-and-mr-norrell.jpg",
     author: "Susanna Clarke",
     rating: 4.03,
     priceCents: 1299,
@@ -731,7 +731,7 @@ export const books =[
     {
     title: "Babel",
     genres: ["Fiction", "Fantasy", "Historical"],
-    image: "../images/babel.jpg",
+    image: "./images/babel.jpg",
     author: "R.F. Kuang",
     rating: 4.07,
     priceCents: 1299,
@@ -742,7 +742,7 @@ export const books =[
     {
     title: "The Bear and the Nightingale",
     genres: ["Fiction", "Fantasy", "Historical"],
-    image: "../images/the-bear-and-the-nightingale.jpg",
+    image: "./images/the-bear-and-the-nightingale.jpg",
     author: "Katherine Arden",
     rating: 4.09,
     priceCents: 1299,
@@ -753,7 +753,7 @@ export const books =[
     {
     title: "The Golem and the Jinni",
     genres: ["Fiction", "Fantasy", "Historical"],
-    image: "../images/the-golem-and-the-jinni.jpg",
+    image: "./images/the-golem-and-the-jinni.jpg",
     author: "Helene Wecker",
     rating: 4.13,
     priceCents: 1299,
@@ -764,7 +764,7 @@ export const books =[
     {
     title: "The Terror",
     genres: ["Fiction", "Adventure", "Historical", "Horror"],
-    image: "../images/the-terror.jpg",
+    image: "./images/the-terror.jpg",
     author: "Dan Simmons",
     rating: 4.13,
     priceCents: 1299,
@@ -775,7 +775,7 @@ export const books =[
     {
     title: "The Ruins",
     genres: ["Fiction", "Adventure", "Horror"],
-    image: "../images/the-ruins.jpg",
+    image: "./images/the-ruins.jpg",
     author: "Scott Smith",
     rating: 3.98,
     priceCents: 1299,
@@ -786,7 +786,7 @@ export const books =[
     {
     title: "At the Mountain of Madness",
     genres: ["Fiction", "Adventure", "Horror", "Science Fiction"],
-    image: "../images/at-the-mountain-of-madness.jpg",
+    image: "./images/at-the-mountain-of-madness.jpg",
     author: "H.P. Lovecraft",
     rating: 4.03,
     priceCents: 1299,
@@ -797,7 +797,7 @@ export const books =[
     {
     title: "The Count of Monte Cristo",
     genres: ["Fiction", "Adventure", "Historical"],
-    image: "../images/the-count-of-monte-cristo.jpg",
+    image: "./images/the-count-of-monte-cristo.jpg",
     author: "Alexandre Dumas",
     rating: 4.07,
     priceCents: 1299,
@@ -808,7 +808,7 @@ export const books =[
     {
     title: "The Three Musketeers",
     genres: ["Fiction", "Adventure", "Historical"],
-    image: "../images/the-three-musketeers.jpg",
+    image: "./images/the-three-musketeers.jpg",
     author: "Alexandre Dumas",
     rating: 4.07,
     priceCents: 1299,
@@ -819,7 +819,7 @@ export const books =[
     {
     title: "The Merry Adventures of Robin Hood",
     genres: ["Fiction", "Adventure", "Historical"],
-    image: "../images/the-merry-adventures-of-robin-hood.jpg",
+    image: "./images/the-merry-adventures-of-robin-hood.jpg",
     author: "Howard Pyle",
     rating: 4.07,
     priceCents: 1299,
@@ -830,7 +830,7 @@ export const books =[
     {
     title: "Frankenstein",
     genres: ["Fiction", "Science Fiction", "Horror"],
-    image: "../images/frankenstein.jpg",
+    image: "./images/frankenstein.jpg",
     author: "Mary Wollstonecraft Shelley",
     rating: 4.12,
     priceCents: 1299,
@@ -841,7 +841,7 @@ export const books =[
     {
     title: "Dead Silence",
     genres: ["Fiction", "Science Fiction", "Horror", "Mystery"],
-    image: "../images/dead-silence.jpg",
+    image: "./images/dead-silence.jpg",
     author: "S.A. Barnes",
     rating: 4.11,
     priceCents: 1299,
@@ -852,7 +852,7 @@ export const books =[
     {
     title: "Who goes there?",
     genres: ["Fiction", "Science Fiction", "Horror", "Mystery"],
-    image: "../images/who-goes-there.jpg",
+    image: "./images/who-goes-there.jpg",
     author: "John W. Campbell Jr.",
     rating: 4.01,
     priceCents: 1299,
@@ -863,7 +863,7 @@ export const books =[
     {
     title: "The Difference Engine",
     genres: ["Fiction", "Science Fiction", "Historical"],
-    image: "../images/the-difference-engine.jpg",
+    image: "./images/the-difference-engine.jpg",
     author: "William Gibson",
     rating: 3.67,
     priceCents: 1299,
@@ -874,7 +874,7 @@ export const books =[
     {
     title: "The Man in the High Castle",
     genres: ["Fiction", "Science Fiction", "Historical"],
-    image: "../images/the-man-in-the-high-castle.jpg",
+    image: "./images/the-man-in-the-high-castle.jpg",
     author: "Philip K. Dick",
     rating: 3.77,
     priceCents: 1299,
