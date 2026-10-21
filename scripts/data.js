@@ -256,7 +256,7 @@ export const books =[
     {
     title: "The Gone World",
     genres: ["Science Fiction", "Mystery", "Fiction"],
-    image: "../images/the-gone-world.jpg",
+    image: "./images/the-gone-world.jpg",
     author: "Tom Sweterlitsch",
     rating: 3.9,
     priceCents: 1299,
@@ -267,7 +267,7 @@ export const books =[
     {
     title: "The 7 1/2 Deaths of Evelyn Hardcastle",
     genres: ["Mystery", "Fiction", "Fantasy"],
-    image: "../images/the-7-12-deaths-of-evelyn-hardcastle.jpg",
+    image: "/images/the-7-12-deaths-of-evelyn-hardcastle.jpg",
     author: "Stuart Turton",
     rating: 3.77,
     priceCents: 1299,
