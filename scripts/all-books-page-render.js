@@ -1,4 +1,5 @@
 import {books} from "./data.js";
+import {formatCurrency} from "./utils.js";
 
 const checkboxes = document.querySelectorAll(".category-options input");
 const bookGrid = document.querySelector(".book-grid");
@@ -34,7 +35,7 @@ function renderBooks(bookList) {
                 </p>
 
                 <p class="book-price">
-                    $${(book.priceCents / 100).toFixed(2)}
+                    $${formatCurrency(book.priceCents)}
                 </p>
             </div>
         `;

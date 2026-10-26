@@ -18,6 +18,7 @@
     flex-direction: row;
     align-items: flex-start;
     gap: 10px;
+    padding-bottom: 10px;
 }
 
 .book-info{
@@ -29,4 +30,13 @@
 .quantity{
     width: 70px;
     padding: 10px;
+}
+
+.remove-button{
+    cursor: pointer;
+    width: fit-content;
+    padding: 3px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(230, 230, 230);
 }

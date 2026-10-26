@@ -1,4 +1,5 @@
 import {books} from "./data.js";
+import {formatCurrency} from "./utils.js";
 
 function renderBooks(books) {
     let html = "";
@@ -23,7 +24,7 @@ function renderBooks(books) {
             </p>
 
             <p class="book-price">
-                $${(book.priceCents / 100).toFixed(2)}
+                $${formatCurrency(book.priceCents)}
             </p>
         </div>
     `;
