@@ -92,7 +92,49 @@ function renderCartItems(){
 
     });
     cartItemsElement.innerHTML = html;
-    totalCostElement.innerHTML = `Total: $${calculateTotalPrice()}`;
+    totalCostElement.innerHTML = `
+        <div class="order-summary">
+            <h3> Order Summary </h3>
+
+            <div class="subtotal-section">
+                <p>
+                    Subtotal (2 items)
+                </p>
+
+                <p>
+                    $${calculateTotalPrice()}
+                </p>
+            </div>
+
+            <div class="shipping-section">
+                <p>
+                    Shipping
+                </p>
+
+                <p>
+                    Calculated at checkout
+                </p>
+            </div>
+
+            <div class="total-price-section">
+                <p>
+                    Total
+                </p>
+                <p>
+                    $${calculateTotalPrice()}
+                </p>
+            </div>
+
+            <button>
+                Proceed to Checkout
+            </button>
+
+            <a href="books.html">
+                Continue Shopping
+            </a>
+        </div>
+
+    `;
 }
 
 function calculateTotalPrice(){
